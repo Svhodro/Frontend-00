@@ -11,7 +11,9 @@ import img6 from '../../../assets/home/06.png'
 export default function Hero() {
     return (
     
-            <Carousel >
+            <Carousel autoPlay={true}
+             infiniteLoop={true} 
+              centerMode={true} >
                 <div>
                     <img src={img1} />
                 </div>
